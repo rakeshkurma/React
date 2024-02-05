@@ -62,7 +62,7 @@ function Body(){
      >Search</button>
       </div>
 
-{filObj.length==0 ? <h1>what you searched is not found Rakesh Kurma !!</h1> : 
+{filObj.length==0 ? <h1>saregga kotra erri nayala!!</h1> : 
         <div className='Restro'>
           {
             filObj.map(res => {
