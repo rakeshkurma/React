@@ -1,0 +1,58 @@
+1.What is Emmet?
+ Emmet is web development toolkit that provides a set of shortucts and abbrevations to generate complex code structure with minimal code.
+
+Ex: ul>li.item$*5
+
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
+
+2.Difference between a Library and Framework?
+ Libraries : Libraries are collection of pre Written code , that can be used by developers to perform their tasks.Developers can directly call the methods without writing all code from scratch.
+ Framework :  A framework is a pre-defined architecture or structure that provides a foundation for building applications. It includes a set of tools, conventions, and rules that guide developers in creating the application's structure and behavior.
+
+ 3.What is CDN? Why do we use it?
+  CDN stands for content Delivery Netwrork , it is a  network of distributed servers and they stored at different graphical locations.
+Using cdn developer can import the web related content like images,webcontent more efficently.
+
+4.Why is React known as React?
+ React is library that mainly made for UI components.React can Update its UI based in response to the change that happened to underlying data using Virtual DOM.
+
+5.What is crossorigin in script tag?
+  This attribute from script allows you to load scripts from different origins/servers.
+ This can be done using a> without credentials b> with credentials (safe and secure)
+
+6.React Dom Vs React ?
+
+ React is framework that used to build applications using state,components and other features.
+DOM : React dom is also a library but it bridges between react with dom.Its responsible for rendering react components to dom.
+   React-> Create View
+   React DOM-> Display in Browser.
+
+7.What is difference between react.development.js and react.production.js files via CDN?
+
+Development.js . It include all the debugging code that helps for devlopment and comparatively larger in size and less Optimised.
+Production js . It doesnt need any debugging , so all debugging code is removed and its small and Optimised.
+
+8.What is async and defer?
+
+They both are attributes used to define how to deal with scripts in HTML.
+Async=> simultaneously parsing HTML tags and fetch data from network, once data gets into browser it stops parsing the html tags and peform script actions and resume once script is completed.
+
+     PARSING HTML               again PARSING HTML
+    ------------->             ----------->
+         fetching  Executes scripts
+         -------->------------->
+
+ Defer=> It paralley parses and fetches the scripts data from network and execute only after completion of all parsing html.
+
+      PARSING HTML               
+    ------------------------>
+        fetches                   Executes scripts
+          -------->           --------------->
+
+when scripts are dependent on each other, prefer defer bcz it maintains Order whereas async doesnt maintain any order.

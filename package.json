@@ -1,0 +1,26 @@
+{
+  "name": "namasteyreact",
+  "version": "1.0.0",
+  "description": "\"Front End Using React js\" ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeshkurma/NamasteReact.git"
+  },
+  "author": "Rakesh Kurma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakeshkurma/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/rakeshkurma/NamasteReact#readme",
+  "dependencies": {
+    "parcel": "^2.10.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
